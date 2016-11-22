@@ -53,14 +53,14 @@
 }
 
 .vertical-center {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
+    min-height: 100%;
+    min-height: 100vh;
 
     display: flex;
     align-items: center;
 }
 
-.blah {
+.background {
     background-color: #77b1a9;
     color: #77b1a9;
     width: 100%;
@@ -101,4 +101,8 @@ body{
     bottom: 0px;
     left: 0px;
     margin:10px;
+}
+
+.fa-quote-left:before {
+    margin: 10px;
 }
